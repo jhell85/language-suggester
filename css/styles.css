@@ -1,4 +1,12 @@
-.body {
-  /* background-image: url(../img/programing-lang-background.jpeg); */
-  background-color: aqua;
+body {
+  background-color: rgb(32, 38, 38);
+  background-image: url(../img/programing-lang-background.jpeg);
+  
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+};
+.startQuiz h3{
+  background-color: chartreuse;
+  color: bisque;
 }
