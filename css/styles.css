@@ -20,7 +20,14 @@ body {
   width:100%;
   height: auto;
   cursor: pointer;
+  border-radius: 5px;
 }
 .col-sm-1 {
   margin-top: 20px;
+}
+#question5 img{
+  width:100%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 50%;
 }
