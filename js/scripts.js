@@ -12,17 +12,17 @@ $(document).ready(function() {
   $("#q1o1").click(function () {
     $("#question1").addClass("none")
     q1 = "JavaScript"
-    
+    $("#question2").removeClass("none")
   })
   $("#q1o2").click(function () {
     $("#question1").addClass("none")
     q1 = "C#"
-    
+    $("#question2").removeClass("none")
   })
   $("#q1o3").click(function () {
     $("#question1").addClass("none")
     q1 = "Python"
-    
+    $("#question2").removeClass("none")
   })
 
 
