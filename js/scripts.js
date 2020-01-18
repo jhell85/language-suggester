@@ -24,7 +24,7 @@ $(document).ready(function() {
     q1 = "Python"
     $("#question2").removeClass("none")
   })
-
+ 
 
 
 })

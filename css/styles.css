@@ -9,6 +9,10 @@ body {
   width: 100%;
   height: auto;
 }
+#question2 img{
+  width: 100%;
+  height: auto;
+}
 .none {
   display: none;
 }
