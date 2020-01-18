@@ -58,5 +58,22 @@ $(document).ready(function() {
     q2 = "C#"
     $("#question4").removeClass("none")
   })
-  
+
+  $("#q4o1").click(function () {
+    $("#question4").addClass("none")
+    q2 = "C#"
+    $("#question5").removeClass("none")
+  })
+  $("#q4o2").click(function () {
+    $("#question4").addClass("none")
+    q2 = "C#"
+    $("#question5").removeClass("none")
+  })
+  $("#q4o3").click(function () {
+    $("#question4").addClass("none")
+    q2 = "C#"
+    $("#question5").removeClass("none")
+  })
+
+
 })
