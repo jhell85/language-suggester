@@ -28,9 +28,7 @@ $(document).ready(function() {
   $("#q2o1").click(function () {
     $("#question2").addClass("none")
     q2 = "Python"
-    console.log("I rannnnnnnnnnnn")
     $("#question3").removeClass("none")
-    console.log(q2)
   })
   $("#q2o2").click(function () {
     $("#question2").addClass("none")
@@ -45,17 +43,17 @@ $(document).ready(function() {
   
   $("#q3o1").click(function () {
     $("#question3").addClass("none")
-    q2 = "C#"
+    q3 = "C#"
     $("#question4").removeClass("none")
   })
   $("#q3o2").click(function () {
     $("#question3").addClass("none")
-    q2 = "C#"
+    q3 = "Python"
     $("#question4").removeClass("none")
   })
   $("#q3o3").click(function () {
     $("#question3").addClass("none")
-    q2 = "C#"
+    q3 = "JavaScript"
     $("#question4").removeClass("none")
   })
 
@@ -66,12 +64,12 @@ $(document).ready(function() {
   })
   $("#q4o2").click(function () {
     $("#question4").addClass("none")
-    q2 = "C#"
+    q2 = "Python"
     $("#question5").removeClass("none")
   })
   $("#q4o3").click(function () {
     $("#question4").addClass("none")
-    q2 = "C#"
+    q2 = "JavaScript"
     $("#question5").removeClass("none")
   })
 
