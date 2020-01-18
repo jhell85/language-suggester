@@ -24,18 +24,39 @@ $(document).ready(function() {
     q1 = "Python"
     $("#question2").removeClass("none")
   })
+
   $("#q2o1").click(function () {
     $("#question2").addClass("none")
     q2 = "Python"
+    console.log("I rannnnnnnnnnnn")
+    $("#question3").removeClass("none")
+    console.log(q2)
   })
   $("#q2o2").click(function () {
     $("#question2").addClass("none")
     q2 = "JavaScript"
+    $("#question3").removeClass("none")
   })
   $("#q2o3").click(function () {
     $("#question2").addClass("none")
     q2 = "C#"
+    $("#question3").removeClass("none")
   })
-
-
+  
+  $("#q3o1").click(function () {
+    $("#question3").addClass("none")
+    q2 = "C#"
+    $("#question4").removeClass("none")
+  })
+  $("#q3o2").click(function () {
+    $("#question3").addClass("none")
+    q2 = "C#"
+    $("#question4").removeClass("none")
+  })
+  $("#q3o3").click(function () {
+    $("#question3").addClass("none")
+    q2 = "C#"
+    $("#question4").removeClass("none")
+  })
+  
 })
