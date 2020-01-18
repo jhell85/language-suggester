@@ -78,16 +78,19 @@ $(document).ready(function() {
     $("#question5").addClass("none")
     c += 1
     console.log(python, c, java)
+    $("#form-div").removeClass("none")
   })
   $("#q5o2").click(function () {
     $("#question5").addClass("none")
     python += 1
     console.log(python, c, java)
+    $("#form-div").removeClass("none")
   })
   $("#q5o3").click(function () {
     $("#question5").addClass("none")
     java += 1
     console.log(python, c, java)
+    $("#form-div").removeClass("none")
   })
 
 })
