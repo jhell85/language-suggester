@@ -27,17 +27,17 @@ $(document).ready(function() {
 
   $("#q2o1").click(function () {
     $("#question2").addClass("none")
-    python = 1
+    python += 1
     $("#question3").removeClass("none")
   })
   $("#q2o2").click(function () {
     $("#question2").addClass("none")
-    java = 1
+    java += 1
     $("#question3").removeClass("none")
   })
   $("#q2o3").click(function () {
     $("#question2").addClass("none")
-    c = 1
+    c += 1
     $("#question3").removeClass("none")
     console.log(python, c, java)
   })
@@ -97,9 +97,12 @@ $(document).ready(function() {
     console.log("form submitted")
     // var name = this.value
     $("#form-div").addClass("none")
-    if ((python > c) && (python <= java)) {
+    if ((python > c) && ((python + 1) <= java)) {
       $("#python-java-result").removeClass("none")
-
+    }
+    else if ((c >= python) && (c >=(1 + java))) {
+      $("#bonus-question")
+      console.log("bonus question")
     }
   })
 
