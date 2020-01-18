@@ -1,6 +1,10 @@
 body {
   background-color: rgb(32, 38, 38);
  }
+
+ .center {
+  margin:250px 0
+}
 #startContainer h4 {
   background-color: rgb(255, 98, 0);
   color: bisque;
@@ -32,6 +36,9 @@ body {
   border-radius: 50%;
 }
 form h3{
+  color: bisque;
+}
+#python-java-result h1 {
   color: bisque;
 }
 

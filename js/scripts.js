@@ -77,20 +77,30 @@ $(document).ready(function() {
   $("#q5o1").click(function () {
     $("#question5").addClass("none")
     c += 1
-    console.log(python, c, java)
+    console.log(`python ${python} c${c} javaScript${java}`)
     $("#form-div").removeClass("none")
   })
   $("#q5o2").click(function () {
     $("#question5").addClass("none")
     python += 1
-    console.log(python, c, java)
+    console.log(`python ${python} c${c} javaScript${java}`)
     $("#form-div").removeClass("none")
   })
   $("#q5o3").click(function () {
     $("#question5").addClass("none")
     java += 1
-    console.log(python, c, java)
+    console.log(`python ${python} c${c} javaScript${java}`)
     $("#form-div").removeClass("none")
+  })
+  $("#form-div form").submit(function (event) {
+    event.preventDefault();
+    console.log("form submitted")
+    // var name = this.value
+    $("#form-div").addClass("none")
+    if ((python > c) && (python <= java)) {
+      $("#python-java-result").removeClass("none")
+
+    }
   })
 
 })
