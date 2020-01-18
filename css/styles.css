@@ -16,3 +16,7 @@ body {
 .none {
   display: none;
 }
+#question3 img{
+  width:100%;
+  height: auto;
+}
