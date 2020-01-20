@@ -124,5 +124,12 @@ $(document).ready(function() {
       console.log("python-results")
     }
   })
-
+  $("#c-sharp-route").click(function () {
+    $("#bonus-question").addClass("none");
+    $("#c-result").removeClass("none");
+  })
+  $("#java-route").click(function () {
+    $("#bonus-question").addClass("none");
+    $("#java-result").removeClass("none");
+  })
 })
