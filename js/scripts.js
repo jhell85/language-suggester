@@ -95,18 +95,16 @@ $(document).ready(function() {
 
   $("#form-div form").submit(function (event) {
     event.preventDefault();
-    $(".name").append("input#name-input").val();
-    $(".name-container").removeClass("none")
-    // var name = this.value
+    var name = $("input#name-input").val()
+    $(".name").append(name);
     $("#form-div").addClass("none")
     if (((python === 2) || (python === 3)) && (((java === 2) || (java === 3)))) {
       console.log(`python: ${python} c: ${c} javaScript: ${java}`)
       $("#python-java-result").removeClass("none")
     }
-    // else if ((c > 0) && (c >= python) && (java >= python) && ((c >= (1 + java)) || ((c + 1) <= java) || (c === java))) {
       else if ((c === 2) || (c === 3) && (java === 2) || (java === 3)){
       console.log(`python: ${python} c: ${c} javaScript: ${java}`)
-      $("#bonus-question")
+      $("#bonus-question").removeClass("none");
       console.log("bonus question between c and java")
     }
     else if (c >= (1 + java) && python >= (1 + java)) {
