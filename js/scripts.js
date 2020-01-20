@@ -76,13 +76,13 @@ $(document).ready(function() {
 
   $("#q5o1").click(function () {
     $("#question5").addClass("none")
-    c += 1
+    python += 1
     console.log(`python ${python} c${c} javaScript${java}`)
     $("#form-div").removeClass("none")
   })
   $("#q5o2").click(function () {
     $("#question5").addClass("none")
-    python += 1
+    c += 1
     console.log(`python ${python} c${c} javaScript${java}`)
     $("#form-div").removeClass("none")
   })
@@ -92,17 +92,38 @@ $(document).ready(function() {
     console.log(`python ${python} c${c} javaScript${java}`)
     $("#form-div").removeClass("none")
   })
+
   $("#form-div form").submit(function (event) {
     event.preventDefault();
-    console.log("form submitted")
+    $(".name").append("input#name-input").val();
+    $(".name-container").removeClass("none")
     // var name = this.value
     $("#form-div").addClass("none")
-    if ((python > c) && ((python + 1) <= java)) {
+    if (((python === 2) || (python === 3)) && (((java === 2) || (java === 3)))) {
+      console.log(`python: ${python} c: ${c} javaScript: ${java}`)
       $("#python-java-result").removeClass("none")
     }
-    else if ((c >= python) && (c >=(1 + java))) {
+    // else if ((c > 0) && (c >= python) && (java >= python) && ((c >= (1 + java)) || ((c + 1) <= java) || (c === java))) {
+      else if ((c === 2) || (c === 3) && (java === 2) || (java === 3)){
+      console.log(`python: ${python} c: ${c} javaScript: ${java}`)
       $("#bonus-question")
-      console.log("bonus question")
+      console.log("bonus question between c and java")
+    }
+    else if (c >= (1 + java) && python >= (1 + java)) {
+      $("#python-c-result").removeClass("none")
+      console.log("backend developer page")
+    }
+    else if ((c > python) && (c > java)) {
+      $("#c-result").removeClass("none")
+      console.log("c sharp page")
+    }
+    else if ((java > c) && (java > python)) {
+      $("#java-result").removeClass("none")
+      console.log("java-results")
+    }
+    else if ((python > c) && (python > java)) {
+      $("#python-result").removeClass("none")
+      console.log("python-results")
     }
   })
 
