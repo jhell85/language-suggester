@@ -88,20 +88,15 @@ $(document).ready(function() {
     $("#form-div").addClass("none");
     if (((python === 2) || (python === 3)) && (((java === 2) || (java === 3)))) {
       $("#python-java-result").removeClass("none");
-    }
-    else if ((c === 2) || (c === 3) && (java === 2) || (java === 3)){
+    } else if ((c === 2) || (c === 3) && (java === 2) || (java === 3)){
       $("#bonus-question").removeClass("none");
-    }
-    else if (c >= (1 + java) && python >= (1 + java)) {
+    } else if (c >= (1 + java) && python >= (1 + java)) {
       $("#python-c-result").removeClass("none");
-    }
-    else if ((c > python) && (c > java)) {
+    } else if ((c > python) && (c > java)) {
       $("#c-result").removeClass("none");
-    }
-    else if ((java > c) && (java > python)) {
+    } else if ((java > c) && (java > python)) {
       $("#java-result").removeClass("none");
-    }
-    else {
+    } else {
       $("#python-result").removeClass("none");
     }
   })

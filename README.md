@@ -1,6 +1,9 @@
 # Language-Selector 
 
-## By Joshua Hellman
+## By Joshua Hellman 01/17/2020
+
+### Description
+A short quiz using Jquery to lead the user through a series of questions and gives the user a different result based on their answers to the questions.
 
 ### Setup
 
@@ -12,12 +15,10 @@
 
 *_follow the prompts and take the quiz in your browser_
 
-### Description
-A short quiz using Jquery to lead the user through a series of questions and gives the user a different result based on their answers to the questions.
 
 ### Technologies Used
 
-Frameworks included HTML, CSS, Bootstrap, JavaScript and Jquery 
+ written in HTML, CSS and JavaScript also using Bootstrap and Jquery libraries.
 
 ### Legal
 

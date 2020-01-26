@@ -5,166 +5,166 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css"/>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
-     <title>Language Selector</title>
-    </head>
-    <body> 
-      <div class="center container" id="startContainer" >
+    <title>Language Selector</title>
+  </head>
+  <body> 
+    <div class="center container" id="startContainer" >
+      <div class="row">
+        <div class="col-sm-5">
+          <img src="img/programing-lang-background.jpeg">
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4 align-self-center" id="startQuiz">
+          <h4 class="btn btn-primary btn-lg">Take our Quiz to find out</h4>
+        </div>
+      </div>
+    </div>
+    <div class="center jumbotron none" id="question1">
+      <h2>Question 1</h2>
+      <h3 >What kind of projects are you interested in working on?</h3>
+      <div class="container">
         <div class="row">
-          <div class="col-sm-5">
-            <img src="img/programing-lang-background.jpeg">
-          </div>
+          <button class="btn btn-primary btn-lg col-sm-3" id="q1o1">Websites</button>
           <div class="col-sm-1"></div>
-          <div class="col-sm-4 align-self-center" id="startQuiz">
-            <h4 class="btn btn-primary btn-lg">Take our Quiz to find out</h4>
-          </div>
+          <button class="btn btn-primary btn-lg col-sm-3" id="q1o2">Video Games</button>
+          <div class="col-sm-1"></div>
+          <button class="btn btn-primary btn-lg col-sm-3" id="q1o3">Data Science</button>
         </div>
       </div>
-      <div class="center jumbotron none" id="question1">
-        <h2>Question 1</h2>
-        <h3 >What kind of projects are you interested in working on?</h3>
-        <div class="container">
-          <div class="row">
-            <button class="btn btn-primary btn-lg col-sm-3" id="q1o1">Websites</button>
-            <div class="col-sm-1"></div>
-            <button class="btn btn-primary btn-lg col-sm-3" id="q1o2">Video Games</button>
-            <div class="col-sm-1"></div>
-            <button class="btn btn-primary btn-lg col-sm-3" id="q1o3">Data Science</button>
-          </div>
-        </div>
-      </div> 
-      <div class="center jumbotron none" id="question2">
-        <h2>Question 2</h2>
-        <h3>What do you call this symbol?</h3>
-        <img src="img/hashtag.png">
-        <div class="container">
-          <div class="row">
-            <button class="btn btn-primary btn-lg col-sm-3" id="q2o1">Pound</button>
-            <div class="col-sm-1"></div>
-            <button class="btn btn-primary btn-lg col-sm-3" id="q2o2">Hash Tag</button>
-            <div class="col-sm-1"></div>
-            <button class="btn btn-primary btn-lg col-sm-3" id="q2o3">Sharp</button>
-          </div>
+    </div> 
+    <div class="center jumbotron none" id="question2">
+      <h2>Question 2</h2>
+      <h3>What do you call this symbol?</h3>
+      <img src="img/hashtag.png">
+      <div class="container">
+        <div class="row">
+          <button class="btn btn-primary btn-lg col-sm-3" id="q2o1">Pound</button>
+          <div class="col-sm-1"></div>
+          <button class="btn btn-primary btn-lg col-sm-3" id="q2o2">Hash Tag</button>
+          <div class="col-sm-1"></div>
+          <button class="btn btn-primary btn-lg col-sm-3" id="q2o3">Sharp</button>
         </div>
       </div>
-      <div class="center jumbotron none" id="question3">
-        <h2>Question 3</h2>
-        <h3>Choose a Mascot</h3>
-        <div class="container">
-          <div class="row">
-            <img src="img/csharp.jpeg" class="col-sm-3" id="q3o1"></img>
-            <div class="col-sm-1"></div>
-            <img src="img/python.png" class="btn-lg col-sm-3" id="q3o2"></img>
-            <div class="col-sm-1"></div>
-            <img src="img/javaScript.jpeg"class="col-sm-3" id="q3o3"></img>
-          </div>
+    </div>
+    <div class="center jumbotron none" id="question3">
+      <h2>Question 3</h2>
+      <h3>Choose a Mascot</h3>
+      <div class="container">
+        <div class="row">
+          <img src="img/csharp.jpeg" class="col-sm-3" id="q3o1"></img>
+          <div class="col-sm-1"></div>
+          <img src="img/python.png" class="btn-lg col-sm-3" id="q3o2"></img>
+          <div class="col-sm-1"></div>
+          <img src="img/javaScript.jpeg"class="col-sm-3" id="q3o3"></img>
         </div>
-      </div> 
-      <div class="center jumbotron none" id="question4">
-        <h2>Question 4</h2>
-        <h3>If you were to build a house would you prefer to</h3>
-        <div class="container">
-          <div class="row">
-            <button class="btn btn-primary btn-lg col-sm-3" id="q4o1">Frame the Home</button>
-            <div class="col-sm-1"></div>
-            <button class="btn btn-primary btn-lg col-sm-3" id="q4o2">Wire the Home</button>
-            <div class="col-sm-1"></div>
-            <button class="btn btn-primary btn-lg col-sm-3" id="q4o3">Style the Home</button>
-          </div>
-        </div>
-      </div> 
-      <div class="center jumbotron none" id="question5">
-        <h2>Question 5</h2>
-        <h3>Which would you prefer to consume?</h3>
-        <div class="container">
-          <div class="row">
-            <img src="img/python-food.jpeg" class="col-sm-3" id="q5o1"></img>
-            <div class="col-sm-1"></div>
-            <img src="img/sharp-cheese.jpeg" class="col-sm-3" id="q5o2"></img>
-            <div class="col-sm-1"></div>
-            <img src="img/coffee.jpeg" class="col-sm-3" id="q5o3"></img>
-          </div>
-        </div>
-      </div> 
-      <div class="center none" id="form-div">
-        <form>
-          <div class="container">
-            <div class="row"> 
-              <div class="col-sm-4"></div>
-              <div class="form-group col-sm-4">
-                <h3>What's your name?</h3>
-                <input class="form-control" id="name-input">
-              </div>
-              <div class="col-sm-4"></div>
-            </div>
-            <div class="row">
-              <div class="col-sm-4"></div>
-              <button type="submit col-sm-4" class="btn btn-primary btn-lg">Submit Results</button>
-              <div class="col-sm-4"></div>
-            </div>
-          </div>
-        </form>
       </div>
-      <div class="center jumbotron none" id="bonus-question">
-        <h2>Last Question</h2>
-        <h3>Would you prefer to build out user interface or behind the scenes programing logic? </h3>
+    </div> 
+    <div class="center jumbotron none" id="question4">
+      <h2>Question 4</h2>
+      <h3>If you were to build a house would you prefer to</h3>
+      <div class="container">
+        <div class="row">
+          <button class="btn btn-primary btn-lg col-sm-3" id="q4o1">Frame the Home</button>
+          <div class="col-sm-1"></div>
+          <button class="btn btn-primary btn-lg col-sm-3" id="q4o2">Wire the Home</button>
+          <div class="col-sm-1"></div>
+          <button class="btn btn-primary btn-lg col-sm-3" id="q4o3">Style the Home</button>
+        </div>
+      </div>
+    </div> 
+    <div class="center jumbotron none" id="question5">
+      <h2>Question 5</h2>
+      <h3>Which would you prefer to consume?</h3>
+      <div class="container">
+        <div class="row">
+          <img src="img/python-food.jpeg" class="col-sm-3" id="q5o1"></img>
+          <div class="col-sm-1"></div>
+          <img src="img/sharp-cheese.jpeg" class="col-sm-3" id="q5o2"></img>
+          <div class="col-sm-1"></div>
+          <img src="img/coffee.jpeg" class="col-sm-3" id="q5o3"></img>
+        </div>
+      </div>
+    </div> 
+    <div class="center none" id="form-div">
+      <form>
         <div class="container">
-          <div class="row">
-            <button class="btn btn-primary btn-lg col-sm-3" id="c-sharp-route">Behind the Scenes</button>
-            <div class="col-sm-1"></div>
+          <div class="row"> 
             <div class="col-sm-4"></div>
-            <button class="btn btn-primary btn-lg col-sm-3" id="java-route">User Interface</button>
+            <div class="form-group col-sm-4">
+              <h3>What's your name?</h3>
+              <input class="form-control" id="name-input">
+            </div>
+            <div class="col-sm-4"></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4"></div>
+            <button type="submit col-sm-4" class="btn btn-primary btn-lg">Submit Results</button>
+            <div class="col-sm-4"></div>
           </div>
         </div>
-      </div> 
-      <div class="center none" id="python-java-result">
-        <div class="container">
-          <div class="row">
-            <div class="results">
-              <h3>Thank You <span class="name"></span> for taking our quiz.<br> based off your answers you should learn </h3>
-              <h2>Python Django & JavaScript</h2><h3>for your first programing language.</h3>
-            </div>
+      </form>
+    </div>
+    <div class="center jumbotron none" id="bonus-question">
+      <h2>Last Question</h2>
+      <h3>Would you prefer to build out user interface or behind the scenes programing logic? </h3>
+      <div class="container">
+        <div class="row">
+          <button class="btn btn-primary btn-lg col-sm-3" id="c-sharp-route">Behind the Scenes</button>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-4"></div>
+          <button class="btn btn-primary btn-lg col-sm-3" id="java-route">User Interface</button>
+        </div>
+      </div>
+    </div> 
+    <div class="center none" id="python-java-result">
+      <div class="container">
+        <div class="row">
+          <div class="results">
+            <h3>Thank You <span class="name"></span> for taking our quiz.<br> based off your answers you should learn </h3>
+            <h2>Python Django & JavaScript</h2><h3>for your first programing language.</h3>
           </div>
         </div>
       </div>
-      <div class="center none" id="python-c-result">
-        <div class="container">
-          <div class="row">
-            <div class="results">
-              <h3>Thank You <span class="name"></span> for taking our quiz.<br> based off your answers backend development is more in line with your answers you should learn </h3>
-              <h2>Python and C#</h2><h3>for your first programing languages.</h3>
-            </div>
+    </div>
+    <div class="center none" id="python-c-result">
+      <div class="container">
+        <div class="row">
+          <div class="results">
+            <h3>Thank You <span class="name"></span> for taking our quiz.<br> based off your answers backend development is more in line with your answers you should learn </h3>
+            <h2>Python and C#</h2><h3>for your first programing languages.</h3>
           </div>
         </div>
       </div>
-      <div class="center none" id="c-result">
-        <div class="container">
-          <div class="row">
-            <div class="results">
-              <h3>Thank You <span class="name"></span> for taking our quiz.<br> based off your answers you should learn </h3>
-              <h2>C#</h2><h3>for your first programing language.</h3>
-            </div>
+    </div>
+    <div class="center none" id="c-result">
+      <div class="container">
+        <div class="row">
+          <div class="results">
+            <h3>Thank You <span class="name"></span> for taking our quiz.<br> based off your answers you should learn </h3>
+            <h2>C#</h2><h3>for your first programing language.</h3>
           </div>
         </div>
       </div>
-      <div class="center none" id="java-result">
-        <div class="container">
-          <div class="row">
-            <div class="results">
-              <h3>Thank You <span class="name"></span> for taking our quiz.<br> based off your answers you should learn </h3>
-              <h2>JavaScript</h2><h3>for your first programing language.</h3>
-            </div>
+    </div>
+    <div class="center none" id="java-result">
+      <div class="container">
+        <div class="row">
+          <div class="results">
+            <h3>Thank You <span class="name"></span> for taking our quiz.<br> based off your answers you should learn </h3>
+            <h2>JavaScript</h2><h3>for your first programing language.</h3>
           </div>
         </div>
       </div>
-      <div class="center none" id="python-result">
-        <div class="container">
-          <div class="row">
-            <div class="results">
-              <h3>Thank You <span class="name"></span> for taking our quiz.<br> based off your answers you should learn </h3>
-              <h2>Python</h2><h3>for your first programing language.</h3>
-            </div>
+    </div>
+    <div class="center none" id="python-result">
+      <div class="container">
+        <div class="row">
+          <div class="results">
+            <h3>Thank You <span class="name"></span> for taking our quiz.<br> based off your answers you should learn </h3>
+            <h2>Python</h2><h3>for your first programing language.</h3>
           </div>
         </div>
       </div>
+    </div>
   </body>
 </html>
